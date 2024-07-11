@@ -8,7 +8,7 @@ export default function Home() {
    <p>hope you enjoyy..nahhh injoiii🤣 it</p>
    <div id="player">
     <video height ="1000px" width ="500px" controls>
-      <source src="/Constants.mp4" type="video/mp4"></source>
+      <source src="/NVN.mp4" type="video/mp4"></source>
     </video>
    </div>
   </div>
