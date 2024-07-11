@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main{
+    background-color:cyan;
+}
+#NIDHI{
+    color: brown;
+    font-size:30px;
+    text-align: center;
+    font-weight:100;
+    text-justify: auto;
+    font-family:Jazz LET;
+    display: flex;
+    justify-content: center;
+}
+#NITI{
+    color:black;
+    font-size:30px;
+    text-align: center;
+    font-weight:100;
+    text-justify: auto;
+    font-family:Jazz LET;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color:gold;
+    font-size:30px;
+    text-align: center;
+    font-weight:100;
+    font-family:Jazz LET;
+    text-justify: auto;
+    text-overflow: ellipsis;
+}
+#player{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#image{
+   margin-top: 20px;
+   margin-left: 110px;
+   margin-right: 100px;
+}
+h1{
+    font-size:50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:fantasy;
+    text-justify: auto;
+    text-overflow: ellipsis;
+}
+a{
+   text-align: center;
+}
+#int{
+    background-color:#A9A9A9;
+}
+
+#main{
+    background-color:cyan;
+}
+#NIDHI{
+    color: brown;
+    font-size:30px;
+    text-align: center;
+    font-weight:100;
+    text-justify: auto;
+    font-family:Jazz LET;
+    display: flex;
+    justify-content: center;
+}
+#NITI{
+    color:black;
+    font-size:30px;
+    text-align: center;
+    font-weight:100;
+    text-justify: auto;
+    font-family:Jazz LET;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color:gold;
+    font-size:30px;
+    text-align: center;
+    font-weight:100;
+    font-family:Jazz LET;
+    text-justify: auto;
+    text-overflow: ellipsis;
+}
+#player{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#image{
+   margin-top: 20px;
+   margin-left: 110px;
+   margin-right: 100px;
+}
+h1{
+    font-size:50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:fantasy;
+    text-justify: auto;
+    text-overflow: ellipsis;
+}
+a{
+   text-align: center;
+}
+#int{
+    background-color:#A9A9A9;
+}
