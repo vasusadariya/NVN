@@ -3,7 +3,7 @@ import { text } from "stream/consumers";
 
 export default function Home() {
   return (
-  <body><div id="main">
+  <div id="main">
   <div>
   <h1>Hii there welcome to my website..</h1>
  <span id="NIDHI"><a href="/NIDHI">NIDHI</a></span>
@@ -18,7 +18,6 @@ export default function Home() {
     alt="Loveliess"/>
   </div>
 </div>
-</body>
 );
 }
 
