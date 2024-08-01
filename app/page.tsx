@@ -6,7 +6,7 @@ export default function Home() {
   <div id="main">
   <div>
   <h1>Hii there welcome to my website..</h1>
- <span id="NIDHI"><a href="/NIDHI">NIDHI</a></span>
+ <span id="NIDHI"><a href="/NIDHI">NIDHI</a></span><br></br>
  <span id="NITI"><a href ="/NITI">NITI</a></span>
   </div>
 <div id="image"><Image
