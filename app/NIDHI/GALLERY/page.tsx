@@ -43,6 +43,21 @@ export default function Home() {
           <Image src="/13.JPG" alt="Mountains" width="640" height="400"></Image>
         </a>
       </div>
+      <div className="gallery">
+        <a target="_blank" href="/15.jpg">
+          <Image src="/15.JPG" alt="Mountains" width="640" height="400"></Image>
+        </a>
+      </div>
+      <div className="gallery">
+        <a target="_blank" href="/16.jpg">
+          <Image src="/16.JPG" alt="Mountains" width="640" height="400"></Image>
+        </a>
+      </div>
+      <div className="gallery">
+        <a target="_blank" href="/19.jpg">
+          <Image src="/19.JPG" alt="Mountains" width="640" height="400"></Image>
+        </a>
+      </div>
     </div>
   )
 }

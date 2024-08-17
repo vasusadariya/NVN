@@ -2,267 +2,311 @@
 @tailwind components;
 @tailwind utilities;
 
- body{
-    
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    padding: 20px 20px 60px;
-    max-width: 680px; 
-    margin: 0 auto;
- }
+body {
+
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  padding: 20px 20px 60px;
+  max-width: 680px;
+  margin: 0 auto;
+}
 
 
-#NIDHI{
-    color: brown;
-    font-size:30px;
-    text-align: center;
-    font-weight:100;
-    text-justify: auto;
-    font-family:Jazz LET;
-    display: flex;
-    justify-content: center;
-}
-#NITI{
-    color:black;
-    font-size:30px;
-    text-align: center;
-    font-weight:100;
-    text-justify: auto;
-    font-family:Jazz LET;
-    display: flex;
-    justify-content: center;
-}
-p{
-    color:gold;
-    font-size:30px;
-    text-align: center;
-    font-weight:100;
-    font-family:Jazz LET;
-    text-justify: auto;
-    text-overflow: ellipsis;
-}
-#player{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+#NIDHI {
+  color: brown;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+  text-justify: auto;
+  font-family: Jazz LET;
+  display: flex;
+  justify-content: center;
 }
 
-h1{
-    font-size:50px;
-    text-align: center;
-    font-weight: bolder;
-    font-family:fantasy;
-    text-justify: auto;
-    text-overflow: ellipsis;
+#NITI {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+  text-justify: auto;
+  font-family: Jazz LET;
+  display: flex;
+  justify-content: center;
 }
-.main{
-  align-self:justify;
-   text-align: center;
-   display: inline;
-   border: 3px black;
-   border-radius: 10px 10px 10px 10px;
-   padding: 10px 10px;
-   border-style:groove;
-  box-shadow: 3px 3px 5px 5px rgba(101, 99, 99, 0.5);  
-    
+
+p {
+  color: gold;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+  font-family: Jazz LET;
+  text-justify: auto;
+  text-overflow: ellipsis;
 }
-.main:hover {
-    background-color: rgb(181, 181, 155);
+
+#player {
+  background-color: whitesmoke;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  height: auto;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 5px 5px 10px 10px rgba(101, 99, 99, 0.5);
+  animation: vasu 3s infinite;
+}
+
+@keyframes vasu {
+  0% {
+    background-color: lightblue;
   }
 
-#NIDHI{
-  
-    color: brown;
-    font-size:30px;
-    text-align: center;
-    font-weight:100;
-    text-justify: auto;
-    font-family:Jazz LET;
-    display: flex;
-    justify-content: center;
-    
+  50% {
+    background-color: lightgreen;
+  }
+
+  100% {
+    background-color: lightblue;
+  }
 }
-#NITI{
-    color:black;
-    font-size:30px;
-    text-align: center;
-    font-weight:100;
-    text-justify: auto;
-    font-family:Jazz LET;
-    display: flex;
-    justify-content: center;
-    
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: fantasy;
+  text-justify: auto;
+  text-overflow: ellipsis;
 }
-p{
-    color:black;
-    font-size:30px;
-    text-align:center;
-    font-weight:100;
-    font-family:Jazz LET;
-    text-justify: auto;
-    text-overflow: ellipsis;
+
+.main {
+  align-self: justify;
+  text-align: center;
+  display: inline;
+  border: 3px black;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 10px;
+  border-style: groove;
+  box-shadow: 3px 3px 5px 5px rgba(101, 99, 99, 0.5);
+  animation: mymove 3s infinite;
 }
-.player{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-      
+
+@keyframes mymove {
+  20% {
+    box-shadow: 5px 5px 5px rgb(174, 174, 219);
+  }
 }
-#image1{
+
+.main:hover {
+  background-color: rgb(176, 128, 220)
+}
+
+#NIDHI {
+
+  color: brown;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+  text-justify: auto;
+  font-family: Jazz LET;
+  display: flex;
+  justify-content: center;
+
+}
+
+#NITI {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+  text-justify: auto;
+  font-family: Jazz LET;
+  display: flex;
+  justify-content: center;
+
+}
+
+p {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+  font-family: Jazz LET;
+  text-justify: auto;
+  text-overflow: ellipsis;
+}
+
+#image1 {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align:center;
+  text-align: center;
   padding: 5px 10px 5px 10px;
 }
 
-div.niti{
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+div.niti {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-div.niti{
-    text-align:center;
-    padding: 5px 10px 5px 10px;
+
+div.niti {
+  text-align: center;
+  padding: 5px 10px 5px 10px;
 }
-.single{
-    display: block;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;  
-    box-shadow:5px 5px 10px 10px rgba(101, 99, 99, 0.5);  
+
+.single {
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  height: auto;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 5px 5px 10px 10px rgba(101, 99, 99, 0.5);
 }
-#logo{
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .card {
-    background-color:whitesmoke;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    max-width:fit-content;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .title {
-    color: grey;
-    font-size: 30px;
-  }  
-  a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-  }
-  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  max-width: fit-content;
+  margin: auto;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.title {
+  color: grey;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-    background-color: transparent;
-    width:640px;
-    height:200px;
-    perspective: 1000px;
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width:640px;
-    height:200px;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width:640px;
-    height:200px;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility:hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-    width:640px;
-    height:200px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align:center;
-    padding: 5px 10px 5px 10px;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    padding-top: 60px;
-    color: white;
-    transform: rotateY(180deg);
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-  .flip-card-1 {
-    background-color: transparent;
-    width:640px;
-    height:200px;
-    perspective: 1000px;
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner-1 {
-    position: relative;
-    width:640px;
-    height:200px;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style:preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card-1:hover .flip-card-inner-1 {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front-1, .flip-card-back-1 {
-    position: absolute;
-    width:640px;
-    height:200px;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility:hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front-1{
-    background-color: #bbb;
-    color: black;
-    width:640px;
-    height:200px;
-  }
-  
-  /* Style the back side */
-  .flip-card-back-1{
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
-  }
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: auto;
+  height: auto;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 640px;
+  height: 200px;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  width: auto;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  padding-top: 60px;
+  color: white;
+  transform: rotateY(180deg);
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card-1 {
+  background-color: transparent;
+  width: 640px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner-1 {
+  position: relative;
+  width: 640px;
+  height: 200px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-1:hover .flip-card-inner-1 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front-1,
+.flip-card-back-1 {
+  position: absolute;
+  width: 640px;
+  height: 200px;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front-1 {
+  background-color: #bbb;
+  color: black;
+  width: 640px;
+  height: 200px;
+}
+
+/* Style the back side */
+.flip-card-back-1 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
