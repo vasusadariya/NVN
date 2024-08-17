@@ -2,8 +2,8 @@ import Image from "next/image";
 import { text } from "stream/consumers";
 
 export default function Home() {
-  return (
-  <body><div id="int">
+  return (<div>
+    <div id="int">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 <div className="card">
   <img className="single" src="/VASU.jpg" alt="Niti"></img>
@@ -44,6 +44,8 @@ export default function Home() {
   </div>
   </div>
 </div>
- </body>
+
+  </div>
+  
   );
 }
