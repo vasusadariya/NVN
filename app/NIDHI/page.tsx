@@ -6,7 +6,7 @@ export default function Home() {
     <div id="int">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <div className="card">
-        <Image className="single" src="/19.jpg" alt="Nidhi" height={400} width={640} ></Image>
+        <Image className="single" src="/static/19.jpg" alt="Nidhi" height={400} width={640} ></Image>
         <h1>Papuu ♡</h1>
         <p className="title">પ્રિયiset બહેન</p>
         <p>રબારી</p>

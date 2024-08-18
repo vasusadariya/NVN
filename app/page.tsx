@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flip-card-1">
         <div className="flip-card-inner-1">
           <div className="flip-card-front-1"><Image id="image1"
-            src="/Constants.png"
+            src="/static/Constants.png"
             width="0"
             height="0"
             sizes="100vw"
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div className="flip-card-back-1">
             <Image id="image1"
-              src="/3.jpg"
+              src="/static/3.jpg"
               width="0"
               height="0"
               sizes="100vw"
