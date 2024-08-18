@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <video id="player" height="400px" width="640px" controls>
-        <source src="/NVN.mp4" type="video/mp4"></source>
+        <source src="/static/NVN.mp4" type="video/mp4"></source>
       </video>
     </div>
   )

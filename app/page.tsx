@@ -11,22 +11,22 @@ export default function Home() {
       </div><br></br>
       <div className="flip-card-1">
         <div className="flip-card-inner-1">
-          <div className="flip-card-front-1"><Image id="image1"
+          <div className="flip-card-front-1"><img id="image1"
             src="/static/Constants.png"
             width="0"
             height="0"
             sizes="100vw"
             className="w-full h-auto"
-            alt="Loveliess" />
+            alt="Loveliess"></img>
           </div>
           <div className="flip-card-back-1">
-            <Image id="image1"
+            <img id="image1"
               src="/static/3.jpg"
               width="0"
               height="0"
               sizes="100vw"
               className="w-full h-auto"
-              alt="Loveliess" />
+              alt="Loveliess"></img>
           </div>
         </div>
       </div>
