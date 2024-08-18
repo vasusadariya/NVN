@@ -15,7 +15,6 @@ export default function Home() {
             <i className="fa fa-instagram"></i>
           </a>
         </div>
-
       </div>
       <br></br>
     </div>
