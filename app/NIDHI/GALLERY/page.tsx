@@ -28,34 +28,34 @@ export default function Home() {
 
       <div className="gallery">
         <a target="_blank" href="/static/14.jpg">
-          <Image src="/static/14.JPG" alt="Mountains"  width={640} height={400}></Image>
+          <Image src="/static/14.jpg" alt="Mountains"  width={640} height={400}></Image>
         </a>
       </div>
 
       <div className="gallery">
         <a target="_blank" href="/static/10.jpg">
-          <Image src="/static/10.JPG" alt="Mountains"  width={640} height={400}></Image>
+          <Image src="/static/10.jpg" alt="Mountains"  width={640} height={400}></Image>
         </a>
       </div>
 
       <div className="gallery">
         <a target="_blank" href="/static/13.jpg">
-          <Image src="/static/13.JPG" alt="Mountains" width={640} height={400}></Image>
+          <Image src="/static/13.jpg" alt="Mountains" width={640} height={400}></Image>
         </a>
       </div>
       <div className="gallery">
         <a target="_blank" href="/static/15.jpg">
-          <Image src="/static/15.JPG" alt="Mountains"  width={640} height={400}></Image>
+          <Image src="/static/15.jpg" alt="Mountains"  width={640} height={400}></Image>
         </a>
       </div>
       <div className="gallery">
         <a target="_blank" href="/static/16.jpg">
-          <Image src="/static/16.JPG" alt="Mountains" width={640} height={400}></Image>
+          <Image src="/static/16.jpg" alt="Mountains" width={640} height={400}></Image>
         </a>
       </div>
       <div className="gallery">
         <a target="_blank" href="/static/19.jpg">
-          <Image src="/static/19.JPG" alt="Mountains"  width={640} height={400}></Image>
+          <Image src="/static/19.jpg" alt="Mountains"  width={640} height={400}></Image>
         </a>
       </div>
     </div>
