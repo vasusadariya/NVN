@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <div id="main">
       <div>
-        <h1>Hii there welcome to my website..</h1>
+        <h1>Hii there welcome to your website Ben...😊</h1>
+        <p>Hope kee tamne gamsee aa badhuu😊</p>
         <div><div><span id="NIDHI"><a className="main" href="/NIDHI">NIDHI</a></span><br></br></div>
           <div><span id="NITI"><a className="main" href="/NITI">NITI</a></span></div></div>
       </div><br></br>

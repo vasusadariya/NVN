@@ -250,7 +250,7 @@ div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 40%;
 }
 
 div.gallery:hover {
@@ -258,7 +258,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
+  width: 640px;
   height: auto;
 }
 
