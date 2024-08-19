@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div className="flip-card-back-1">
             <img id="image1"
-              src="/static/3.jpg"
+              src="/static/vasu3.jpg"
               width="0"
               height="0"
               sizes="100vw"
